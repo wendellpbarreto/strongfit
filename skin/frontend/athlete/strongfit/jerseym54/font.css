@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Jersey M54';
+  src: url('Jersey M54.eot'); /* IE9 Compat Modes */
+  src: url('Jersey M54.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Jersey M54.woff') format('woff'), /* Modern Browsers */
+       url('Jersey M54.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Jersey M54.svg#938109967a2cb6f47dfb812936cc6160') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

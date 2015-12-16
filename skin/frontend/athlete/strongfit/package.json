@@ -1,0 +1,42 @@
+{
+  "name": "strongfit",
+  "version": "2.0.0",
+  "description": "StrongFit Magento Theme Athlete Based",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wendellpbarreto/strongfit"
+  },
+  "keywords": [
+    "strongfit",
+    "magento"
+  ],
+  "author": "Wendell P. Barreto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wendellpbarreto/strongfit/issues"
+  },
+  "homepage": "https://github.com/wendellpbarreto/strongfit",
+  "dependencies": {
+    "bower": "^1.3.9",
+    "del": "^0.1.2",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.14.0",
+    "gulp": "^3.8.7",
+    "gulp-autoprefixer": "0.0.10",
+    "gulp-concat": "^2.3.4",
+    "gulp-imagemin": "^1.0.1",
+    "gulp-sass": "^0.7.3",
+    "gulp-sourcemaps": "^1.1.4",
+    "gulp-uglify": "^1.0.0"
+  }
+}

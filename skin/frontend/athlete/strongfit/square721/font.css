@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Square721 BT';
+  src: url('Square721 BT Roman.eot'); /* IE9 Compat Modes */
+  src: url('Square721 BT Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Square721 BT Roman.woff') format('woff'), /* Modern Browsers */
+       url('Square721 BT Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Square721 BT Roman.svg#87ed982c59b296243d4c5ed0f98aec5a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

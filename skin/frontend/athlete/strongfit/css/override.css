@@ -1,0 +1,221 @@
+/**
+ * File for custom CSS. You can use it to override the default styling of the theme.
+ *
+ * 1. Copy the file "default.override.css" and rename it to "override.css".
+ * 2. Enable it in the admin panel.
+ *
+ */
+ .categorypath-sports-html .page-title,
+ .categorypath-sports-html .breadcrumbs { display: none}
+
+ #nav > li.purchase-yellow > a span {color:#adb903}
+ #nav > li.purchase-yellow > a:hover {background-color:#adb903}
+ #nav > li.purchase-yellow > a:hover span {color:#fff}
+
+ #nav > li.purchase-light-english > a span {color:#bb0c1b}
+ #nav > li.purchase-light-english > a:hover {background-color:#bb0c1b}
+ #nav > li.purchase-light-english > a:hover span {color:#fff}
+
+ #nav > li.purchase-light-polish > a span {color:#c3a07b}
+ #nav > li.purchase-light-polish > a:hover {background-color:#c3a07b}
+ #nav > li.purchase-light-polish > a:hover span {color:#fff}
+
+ body, input, select, textarea, button,
+ .theme_font,
+ .main ul.messages,
+ .product-options dt label, .product-options dl ul.options-list .label,
+ .slide-title .text, .slide-title .link,
+ button.button span,
+ .header-cart .summary,
+ .header-cart .header-dropdown .subtotal,
+ .footer .info-content h1,.footer .info-content h2,.footer .info-content h3,.footer .info-content h4,.footer .info-content h5,.footer .info-content h6,
+ .footer .newsletter .title,
+ .footer .athlete_footer_connect .title,
+ .athlete_footer_customer_service,
+ .header-cart .header-dropdown .sub-total,
+ #nav > li > a, #nav ul.level0 li > a, .nav-top-title a,
+ .content-banner .banner, .content-banner .banner a,
+ .text-container .text,
+ .nav-top-title,
+ .page-title h1, .opc .step h3, .opc .step-title .number, .opc .step-title h2, .block .block-title, .block-compare h3,
+ .block_shipping .shipping > h2, .block_coupon  .discount > h2, .block_totals #shopping-cart-totals-table tfoot strong,
+ p.back-link a,
+ .data-table .product-name, .data-table .cart-price,
+ .block .actions a,
+ .block-poll .block-subtitle:before,
+ .std h1, .std h2, .std h3, .std h4,.std h5, .std h6,
+ .std .h1, .std .h2, .std .h3, .std .h4,.std .h5, .std .h6,
+ .std .data-table tbody  th,
+ .category-products .product-name, .category-products .price-box,
+ .new-label, .sale-label,
+ .products-list .link-wishlist, .products-list .link-compare,
+ .product-view .product-category-title h3, .product-name h1,
+ .product-shop .add-to-links a,
+ .dedicated-review-box .average-rating strong,
+ .dedicated-review-box ol.reviews-list li .review-title,
+ .add-review h2, .add-review h4,
+ .product-tabs a,
+ .product-tabs-container h2.tab-heading a,
+ .product-view .box-tags .form-add label,
+ .price-box .price,
+ .title-container h3,
+ .category-banner-container .text-container a, .cms-banner.cms-banner-big-link .link, ul.custom-menu li a, .block-login h2,
+ .blog-title h1, .aw-blog-read-more, .postTitle h1,.commentDetails h4.username,
+ .blog-date, .postTitle h2,
+ .athlete_style_large, .athlete_style_medium, .athlete_style_small,
+ .slideshow-container .link {
+    font-family:"Square721 BT", Arial, sans-serif;
+    letter-spacing:0;
+    font-weight: 300;
+}
+
+.fullwidthbanner-container .caption {
+    font-family: "Jersey M54";
+    font-weight: 300;
+}
+
+/* MAIN CONTAINER */
+
+/*.main-container {
+    margin-top: 146px;
+}*/
+
+/* HEADER */
+
+/*.header-container {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}*/
+
+/*.header-fixed {
+    position: fixed;
+}*/
+
+.header .search-visible .form-search {
+    width: 462px;
+}
+
+.header .form-search input {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    font-size: 15px;
+    color: #333;
+}
+
+.header .form-search button.button span {
+    height: 40px;
+    width: 50px;
+}
+
+.header .form-search .search-autocomplete li {
+    text-align: left;
+    padding: 4px 20px;
+}
+
+.header .form-search .search-autocomplete li .amount {
+    padding: 0 5px 0 10px;
+}
+
+/* NAVIGATION */
+.header-nav-wide #nav {
+    padding: 0;
+}
+
+#nav>li {
+    margin-right: 0;
+}
+
+#nav>li>a {
+    font-size: 21px;
+    padding: 5px 35px;
+    -webkit-transition: padding 0.01s linear;
+    -moz-transition: padding 0.01s linear;
+    -o-transition: padding 0.01s linear;
+    transition: padding 0.01s linear;
+}
+
+.olegnaxmegamenu #nav li.wide > div.megamenu-dropdown {
+    margin-top: 0;
+    opacity: 0.9;
+}
+
+.olegnaxmegamenu #nav li.wide ul li {
+    text-align: center;
+}
+
+.olegnaxmegamenu #nav > li ul.level0 a span {
+    font-family:"Square721 BT", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.header-fixed .header-nav-wide::before {
+    background-color: #000;
+}
+
+.header-fixed .olegnaxmegamenu #nav li.level0 > a {
+    padding: 19px 15px 17px;
+}
+
+.header-fixed .olegnaxmegamenu #nav li.level0 > a:hover {
+    color: #fc0d1e;
+}
+
+.header-fixed .olegnaxmegamenu #nav li.level0 > a::before {
+    background-color: transparent;
+}
+
+.header-fixed .form-search {
+    display: none;
+}
+
+.header-fixed .header-switch {
+    top: 0;
+    height: 64px;
+}
+
+.header-fixed .header-switch .header-switch-trigger {
+    height: 64px;
+    background-image: none;
+
+}
+
+.header-fixed .header-switch .header-dropdown {
+    top: 64px !important;
+}
+
+.olegnaxmegamenu #nav > li ul.level0 li.level1 > a:first-child span {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.megamenu-block-top .h1 {
+    margin: 10px 20px 40px 20px;
+    display: table;
+    white-space: nowrap;
+    color: #fc0d1e !important;
+    font-size: 30px;
+}
+
+.megamenu-block-top .h1:before, .megamenu-block-top .h1:after {
+    border-top: 1px solid #fc0d1e;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 22px;
+    width: 45%;
+}
+
+.megamenu-block-top .h1:before { right: 1.5%; }
+.megamenu-block-top .h1:after { left: 1.5%; }
+
+/* CONTACT FORM */
+#contactForm {
+    display: block;
+    margin-bottom: 30px;
+}
