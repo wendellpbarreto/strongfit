@@ -121,7 +121,7 @@ $imgY = $athleteImgHelper->calculateHeight($imgX);
 
     <?php $_collectionSize = $_productCollection->count() ?>
     <?php $_columnCount = $this->getColumnCount(); ?>
-    <ul class="products-grid">
+    <ul class="products-grid aaaaaa">
     <?php foreach ($_productCollection as $_product): ?>
 	    <?php
 	    $liClass = '';
@@ -140,6 +140,10 @@ $imgY = $athleteImgHelper->calculateHeight($imgX);
 					<?php echo '<img class="regular_img" src="'. $this->helper('catalog/image')->init($_product, 'small_image')->resize($imgX, $imgY)
 						.'" data-srcX2="'. $this->helper('catalog/image')->init($_product, 'small_image')->resize($imgX*2, $imgY*2)
 						.'" width="'.$imgX.'" height="'.$imgY.'" alt="'.$this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) .'" />'; ?>
+
+					<?php if(!$_product->isSaleable()): ?>
+						<img src="<?php echo $this->getSkinUrl('images/outofstock.jpg') ?>" style="position: absolute;bottom: 0;left: 0;right: 0;z-index: 2;">
+					<?php endif ?>
 				</a>
 				<div class="product-hover">
 					<?php if( $athleteHelper->getCfg('listing/grid_name') ): ?>
